@@ -1,0 +1,196 @@
+<!-- @title : Корзина -->
+<!-- @import "../_head.kit" -->
+
+<body class="loaded shop_body">
+    <div id="my-page">
+        <div class="main-wrapper">
+<!-- @import "_header_shop.kit" -->
+
+            <main id="my-content" class="content">
+                <div class="wrapper">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li><span><!-- @title --></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="shop_cart">
+                        <div class="wrapper">
+                            <div class="content_without_sidebar">
+                                <h1 class="h1">Товары в корзине</h1>
+                                <div class="shop_cart__list">
+                                    <div class="shop_cart__item">
+                                        <div class="shop_cart__img">
+                                            <picture>
+                                                <source srcset="img/shop/prod-cart.webp" type="image/webp">
+                                                <img src="img/shop/prod-cart.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="shop_cart__body">
+                                            <div class="shop_cart__title">ТермоЗвукоИзоляция Light</div>
+                                            <div class="shop_cart__content">
+                                                <div class="shop_cart__content__item">
+                                                    <label>Кол-во:</label>
+                                                    <input class="shop_cart__qty" type="text" value="12">
+                                                </div>
+                                                <div class="shop_cart__content__item">
+                                                    <label>Стоимость:</label>
+                                                    <div class="shop_cart__content__price">5 300 руб</div>
+                                                </div>
+                                            </div>
+                                            <div class="shop_cart__footer">
+                                                <div class="shop_cart__remove">
+                                                    <i class="icon icon-clear-11x11"></i>
+                                                    <span>Убрать</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_cart__item">
+                                        <div class="shop_cart__img">
+                                            <picture>
+                                                <source srcset="img/shop/prod-cart.webp" type="image/webp">
+                                                <img src="img/shop/prod-cart.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="shop_cart__body">
+                                            <div class="shop_cart__title">ТермоЗвукоИзоляция Light</div>
+                                            <div class="shop_cart__content">
+                                                <div class="shop_cart__content__item">
+                                                    <label>Кол-во:</label>
+                                                    <input class="shop_cart__qty" type="text" value="12">
+                                                </div>
+                                                <div class="shop_cart__content__item">
+                                                    <label>Стоимость:</label>
+                                                    <div class="shop_cart__content__price">5 300 руб</div>
+                                                </div>
+                                            </div>
+                                            <div class="shop_cart__footer">
+                                                <div class="shop_cart__remove">
+                                                    <i class="icon icon-clear-11x11"></i>
+                                                    <span>Убрать</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_cart__item">
+                                        <div class="shop_cart__img">
+                                            <picture>
+                                                <source srcset="img/shop/prod-2.webp" type="image/webp">
+                                                <img src="img/shop/prod-2.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="shop_cart__body">
+                                            <div class="shop_cart__title">ТермоЗвукоИзоляция Light</div>
+                                            <div class="shop_cart__content">
+                                                <div class="shop_cart__content__item">
+                                                    <label>Кол-во:</label>
+                                                    <input class="shop_cart__qty" type="text" value="12">
+                                                </div>
+                                                <div class="shop_cart__content__item">
+                                                    <label>Стоимость:</label>
+                                                    <div class="shop_cart__content__price">5 300 руб</div>
+                                                </div>
+                                            </div>
+                                            <div class="shop_cart__footer">
+                                                <div class="shop_cart__remove">
+                                                    <i class="icon icon-clear-11x11"></i>
+                                                    <span>Убрать</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper detail_wrapper">
+                        <h2 class="h1">Оформление заказа</h2>
+                        <div class="detailpage__tabs">
+                            <div class="simpletabs">
+                                <ul class="simpletabs__checks simpletabs__checks_inputs tabset">
+                                    <li class="simpletabs__checks_item">
+                                        <a class="tab active" href="#tab1">
+                                            <input type="checkbox" name="delivery" id="tb1">
+                                            <label for="tb1">Доставка</label>
+                                        </a>
+                                    </li>
+                                    <li class="simpletabs__checks_item">
+                                        <a class="tab" href="#tab2">
+                                            <input type="checkbox" name="delivery" id="tb2">
+                                            <label for="tb2">Самовывоз</label>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs-wrapper">
+                                <div id="tab1" class="tab vis">
+                                    <div class="oz_form">
+                                        <div class="oz_form__title">Укажите Ваши личные данные</div>
+                                        <div class="oz_form__row">
+                                            <div class="oz_form__item">
+                                                <label>Имя и фамилия</label>
+                                                <input type="text" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <label>Номер телефона</label>
+                                                <input type="tel" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <label>E-mail почта</label>
+                                                <input type="email" value="">
+                                            </div>
+                                        </div>
+                                        <div class="oz_form__row">
+                                            <div class="oz_form__item oz_form__item_full">
+                                                <label>Адрес (город, улица, дома)</label>
+                                                <input type="text" value="">
+                                            </div>
+                                        </div>
+                                        <div class="oz_form__row">
+                                            <div class="oz_form__item">
+                                                <label>Выберите день для доставки</label>
+                                                <input type="text" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <label>Удобное время</label>
+                                                <input type="tel" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <div class="oz_form__summary">
+                                                    <span>Стоимость доставки:</span>
+                                                    <strong>1500 руб</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab2" class="tab">
+                                    <br><br><h2>Контент для самовывоза</h2>
+                                    <p>Является одним из первых появившихся на российском рынке материалов, разработанных для звукоизоляции помещений. ТермоЗвукоИзол это стекловолокнистый холст, спрессованный механическим способом и запаянный в защитную оболочку из спанбонда. В отличие от других шумопоглощающих материалов, ТермоЗвукоИзол экологически безопасен, т.к. не содержит вредных связующих (фенола и формальдегида).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop_detail_footer shop_detail_footer_cart">
+                            <div class="shop_detail_footer__left">
+                                <div class="shop_detail_footer__title">Стоимость материалов: 18 347 руб</div>
+                                <div class="shop_detail_footer__title">Монтаж: 8 600 руб</div>
+                                <div class="shop_detail_footer__title">Доставка: 1 500 руб</div>
+                            </div>
+                            <div class="shop_detail_footer__right">
+                                <div class="shop_detail_footer__os">Общая сумма:</div>
+                                <div class="shop_detail_footer__sum">39 940 руб</div>
+                                <br>
+                                <div class="shop_detail_footer__button"><button class="button" type="submit">Оформить заказ</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </main>
+<!-- @import "_footer_shop.kit" -->
+
+        </div>
+    </div>
+<!-- @import "../_foot.kit" -->

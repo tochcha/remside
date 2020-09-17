@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <style>
+        .loaded #top-menu,
+        .loaded #catalog-menu {
+            display: none;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Корзина</title>
+    <meta property="og:title" content="Корзина" />
+    <meta name='description' content="" />
+    <meta name="keywords" content="" />
+    <link rel="apple-touch-icon" sizes="57x57"         href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60"         href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72"         href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76"         href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114"       href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120"       href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144"       href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152"       href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180"       href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32"    href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96"    href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16"    href="img/favicon/favicon-16x16.png">
+    <link rel="manifest"                               href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="css/compilated.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body class="loaded shop_body">
+    <div id="my-page">
+        <div class="main-wrapper">
+            <header id="my-header" class="header">
+                <div class="header__top">
+                    <div class="wrapper">
+                        <div class="header__topflex header__top_mobile">
+                            <div class="hb_left">
+                                <a href="#top-menu" class="hamburger hamburger--squeeze">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                    <span class="hb_title">Меню</span>
+                                </a>
+                            </div>
+                            <div class="logo_mobile">
+                                <a href="index.html"><img src="img/logo-footer.png" alt=""></a>
+                            </div>
+                            <div class="hb_right">
+                                <div class="cart_mobile_informer">
+                                    <div id="cart_mobile_switcher" class="icon icon-basket-white"></div>
+                                    <div class="cart_small header__mobile_cart">
+                                        <div class="cart_small__visual">
+                                            <i class="icon icon-basket"></i>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="cart_small__content">
+                                            <div class="cart_small__sum">Сумма:</div>
+                                            <div class="cart_small__summary">123 500 руб</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#catalog-menu" id="my-button" class="hamburger hamburger--squeeze">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                    <span class="hb_title">Каталог</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__topflex header__top_desktop">
+                            <nav class="top_nav">
+                                <ul class="top_nav__list">
+                                    <li class="top_nav__item parent">
+                                        <a class="top_nav__link" href="/about.html">О компании</a>
+                                        <ul class="top_nav__sublist">
+                                            <li class="top_nav__sub active"><a href="staff.html">Лица компании</a></li>
+                                            <li class="top_nav__sub"><a href="portfolio.html">Портфолио</a></li>
+                                            <li class="top_nav__sub"><a href="articles.html">Статьи</a></li>
+                                            <li class="top_nav__sub"><a href="news.html">Новости</a></li>
+                                            <li class="top_nav__sub"><a href="jobs.html">Вакансии</a></li>
+                                            <li class="top_nav__sub"><a href="contacts.html">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="top_nav__item"><a class="top_nav__link" href="reviews.html">Отзывы</a></li>
+                                    <li class="top_nav__item"><a class="top_nav__link" href="#">Полезная информация</a></li>
+                                    <li class="top_nav__item"><a class="top_nav__link" href="estimates.html">Сметы</a></li>
+                                    <li class="top_nav__item"><a class="top_nav__link" href="#">Интернет-магазин</a></li>
+                                </ul>
+                            </nav>
+                            <!-- <div class="header__button">
+                                <a data-fancybox data-src="#zamer" href="javascript:;" class="button small">Вызов замерщика</a>
+                            </div> -->
+                            <div class="header__email"><a href="mailto:remside@mail.ru"><i class="icon icon-email"></i>remside@mail.ru</a></div>
+                            <div class="header__chat">
+                                <div class="header__chat_title">Начать чат: </div>
+                                <ul class="chat__list">
+                                    <li><a href="#" title="whatsapp"><img src="img/whatsapp.png" alt=""></a></li>
+                                    <li><a href="#" title="telegram"><img src="img/telegram-white.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__middle">
+                    <div class="wrapper">
+                        <div class="logo_slogan">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                            </div>
+                            <!-- <div class="header__slogan">Ремонт офисных <br>и жилых помещений <br>в Москве и МО</div> -->
+                            <div class="header__slogan">Интернет-магазин <br>звукоизоляции</div>
+                        </div>
+                        <div class="header__search__wrapper">
+                            <form action="#">
+                                <div class="search header__search">
+                                    <input type="search" placeholder="Поиск...">
+                                    <i class="icon icon-zoom"></i>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="header__schedule">
+                            Офис работает: <br>
+                            Пн-Пт с 9.00-18.00 <br>
+                            <span class="schedule__separ"></span>
+                            Прием звонков: <br>
+                            Пн-Вс 9:00 - 21:00
+                            <i class="icon icon-schedule"></i>
+                        </div>
+                        <div class="header__tels">
+                            <div class="header__tel"><a href="tel:+78005557589">+7 (800) 555-75-89</a></div>
+                            <div class="header__tel"><a href="tel:+78005557589">+7 (800) 555-75-89</a></div>
+                            <div class="recall"><a data-fancybox data-src="#oz" href="javascript:;">Обратный звонок</a></div>
+                        </div>
+                        <div class="cart_small header__cart">
+                            <div class="cart_small__visual">
+                                <i class="icon icon-basket"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="cart_small__content">
+                                <div class="cart_small__sum">Сумма:</div>
+                                <div class="cart_small__summary">123 500 руб</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="wrapper">
+                        <nav>
+                            <ul class="mainnav">
+                                <li class="mainnav__item"><a class="mainnav__link" href="#">Доставка и оплата</a></li>
+                                <li class="mainnav__item"><a class="mainnav__link" href="#">Ремонт квартир</a></li>
+                                <li class="mainnav__item"><a class="mainnav__link" href="#">Ремонт помещений</a></li>
+                                <li class="mainnav__item"><a class="mainnav__link" href="portfolio.html">Дизайн интерьера</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <main id="my-content" class="content">
+                <div class="wrapper">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li><span>Корзина</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="shop_cart">
+                        <div class="wrapper">
+                            <div class="content_without_sidebar">
+                                <h1 class="h1">Товары в корзине</h1>
+                                <div class="shop_cart__list">
+                                    <div class="shop_cart__item">
+                                        <div class="shop_cart__img">
+                                            <picture>
+                                                <source srcset="img/shop/prod-cart.webp" type="image/webp">
+                                                <img src="img/shop/prod-cart.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="shop_cart__body">
+                                            <div class="shop_cart__title">ТермоЗвукоИзоляция Light</div>
+                                            <div class="shop_cart__content">
+                                                <div class="shop_cart__content__item">
+                                                    <label>Кол-во:</label>
+                                                    <input class="shop_cart__qty" type="text" value="12">
+                                                </div>
+                                                <div class="shop_cart__content__item">
+                                                    <label>Стоимость:</label>
+                                                    <div class="shop_cart__content__price">5 300 руб</div>
+                                                </div>
+                                            </div>
+                                            <div class="shop_cart__footer">
+                                                <div class="shop_cart__remove">
+                                                    <i class="icon icon-clear-11x11"></i>
+                                                    <span>Убрать</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_cart__item">
+                                        <div class="shop_cart__img">
+                                            <picture>
+                                                <source srcset="img/shop/prod-cart.webp" type="image/webp">
+                                                <img src="img/shop/prod-cart.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="shop_cart__body">
+                                            <div class="shop_cart__title">ТермоЗвукоИзоляция Light</div>
+                                            <div class="shop_cart__content">
+                                                <div class="shop_cart__content__item">
+                                                    <label>Кол-во:</label>
+                                                    <input class="shop_cart__qty" type="text" value="12">
+                                                </div>
+                                                <div class="shop_cart__content__item">
+                                                    <label>Стоимость:</label>
+                                                    <div class="shop_cart__content__price">5 300 руб</div>
+                                                </div>
+                                            </div>
+                                            <div class="shop_cart__footer">
+                                                <div class="shop_cart__remove">
+                                                    <i class="icon icon-clear-11x11"></i>
+                                                    <span>Убрать</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_cart__item">
+                                        <div class="shop_cart__img">
+                                            <picture>
+                                                <source srcset="img/shop/prod-2.webp" type="image/webp">
+                                                <img src="img/shop/prod-2.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="shop_cart__body">
+                                            <div class="shop_cart__title">ТермоЗвукоИзоляция Light</div>
+                                            <div class="shop_cart__content">
+                                                <div class="shop_cart__content__item">
+                                                    <label>Кол-во:</label>
+                                                    <input class="shop_cart__qty" type="text" value="12">
+                                                </div>
+                                                <div class="shop_cart__content__item">
+                                                    <label>Стоимость:</label>
+                                                    <div class="shop_cart__content__price">5 300 руб</div>
+                                                </div>
+                                            </div>
+                                            <div class="shop_cart__footer">
+                                                <div class="shop_cart__remove">
+                                                    <i class="icon icon-clear-11x11"></i>
+                                                    <span>Убрать</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper detail_wrapper">
+                        <h2 class="h1">Оформление заказа</h2>
+                        <div class="detailpage__tabs">
+                            <div class="simpletabs">
+                                <ul class="simpletabs__checks simpletabs__checks_inputs tabset">
+                                    <li class="simpletabs__checks_item">
+                                        <a class="tab active" href="#tab1">
+                                            <input type="checkbox" name="delivery" id="tb1">
+                                            <label for="tb1">Доставка</label>
+                                        </a>
+                                    </li>
+                                    <li class="simpletabs__checks_item">
+                                        <a class="tab" href="#tab2">
+                                            <input type="checkbox" name="delivery" id="tb2">
+                                            <label for="tb2">Самовывоз</label>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs-wrapper">
+                                <div id="tab1" class="tab vis">
+                                    <div class="oz_form">
+                                        <div class="oz_form__title">Укажите Ваши личные данные</div>
+                                        <div class="oz_form__row">
+                                            <div class="oz_form__item">
+                                                <label>Имя и фамилия</label>
+                                                <input type="text" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <label>Номер телефона</label>
+                                                <input type="tel" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <label>E-mail почта</label>
+                                                <input type="email" value="">
+                                            </div>
+                                        </div>
+                                        <div class="oz_form__row">
+                                            <div class="oz_form__item oz_form__item_full">
+                                                <label>Адрес (город, улица, дома)</label>
+                                                <input type="text" value="">
+                                            </div>
+                                        </div>
+                                        <div class="oz_form__row">
+                                            <div class="oz_form__item">
+                                                <label>Выберите день для доставки</label>
+                                                <input type="text" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <label>Удобное время</label>
+                                                <input type="tel" value="">
+                                            </div>
+                                            <div class="oz_form__item">
+                                                <div class="oz_form__summary">
+                                                    <span>Стоимость доставки:</span>
+                                                    <strong>1500 руб</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab2" class="tab">
+                                    <br><br><h2>Контент для самовывоза</h2>
+                                    <p>Является одним из первых появившихся на российском рынке материалов, разработанных для звукоизоляции помещений. ТермоЗвукоИзол это стекловолокнистый холст, спрессованный механическим способом и запаянный в защитную оболочку из спанбонда. В отличие от других шумопоглощающих материалов, ТермоЗвукоИзол экологически безопасен, т.к. не содержит вредных связующих (фенола и формальдегида).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop_detail_footer shop_detail_footer_cart">
+                            <div class="shop_detail_footer__left">
+                                <div class="shop_detail_footer__title">Стоимость материалов: 18 347 руб</div>
+                                <div class="shop_detail_footer__title">Монтаж: 8 600 руб</div>
+                                <div class="shop_detail_footer__title">Доставка: 1 500 руб</div>
+                            </div>
+                            <div class="shop_detail_footer__right">
+                                <div class="shop_detail_footer__os">Общая сумма:</div>
+                                <div class="shop_detail_footer__sum">39 940 руб</div>
+                                <br>
+                                <div class="shop_detail_footer__button"><button class="button" type="submit">Оформить заказ</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </main>
+			<footer id="my-footer" class="footer">
+				<div class="footer__top">
+					<div class="wrapper">
+						<div class="footer__flex">
+							<div class="footer__left">
+								<div class="footer__left_top">
+									<div class="logo"><a href="#"><img src="img/logo-footer.png" alt=""></a></div>
+									<div class="clogan">Интернет-магазин <br>звукоизоляции</div>
+								</div>
+								<div class="footer__chat">
+									<div class="footer__chat_title">Начать чат: </div>
+									<ul class="chat__list">
+										<li><a href="#" title="whatsapp"><img src="img/whatsapp.png" alt=""></a></li>
+										<li><a href="#" title="telegram"><img src="img/telegram-white.png" alt=""></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="foter_right">
+								<div class="foter_right__col">
+									<div class="footer__spoiler">
+										<div class="footer__spoiler_title">О нас</div>
+										<div class="footer__spoiler_content">
+											<ul class="footer_menu">
+												<li><a href="#">Ремонт квартир</a></li>
+												<li><a href="#">Ремонт помещений</a></li>
+												<li><a href="#">Дизайн Интерьера</a></li>
+												<li><a href="#">Портфолио</a></li>
+												<li><a href="#">Лица компании</a></li>
+												<li><a href="#">Отзывы</a></li>
+												<li><a href="#">Дипломы и сертификаты</a></li>
+												<li><a href="#">Договор</a></li>
+												<li><a href="#">Контакты</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="foter_right__col">
+									<div class="footer__spoiler">
+										<div class="footer__spoiler_title">Каталог</div>
+										<div class="footer__spoiler_content">
+											<ul class="footer_menu">
+												<li><a href="#">Звукоизоляционные панели</a></li>
+												<li><a href="#">Звукоизоляционные мембраны</a></li>
+												<li><a href="#">Звукопоглощающие плиты</a></li>
+												<li><a href="#">Виброподвесы</a></li>
+												<li><a href="#">Демпферные ленты</a></li>
+												<li class="footer_menu__more"><a href="#">Показать больше <i class="icon icon-menu-arrow-right"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="foter_right__col">
+									<div class="footer__spoiler">
+										<div class="footer__spoiler_title">Контакты</div>
+										<div class="footer__spoiler_content">
+											<div class="footer__tels">
+												<div class="footer__tel"><a href="tel:+78005557589">+7 (800) 555-75-89</a></div>
+												<div class="footer__tel"><a href="tel:+78005557589">+7 (800) 555-75-89</a></div>
+												<div class="recall"><a data-fancybox data-src="#oz" href="javascript:;">Обратный звонок</a></div>
+											</div>
+											<div class="footer__email"><a href="mailto:remside@mail.ru"><i class="icon icon-email"></i>remside@mail.ru</a></div>
+											<div class="footer__addr"><i class="icon icon-map"></i>Москва, ул. Мантулинская, д. 2</div>
+											<div class="footer__schedule">
+												<i class="icon icon-schedule-22"></i>
+					                            Офис работает: <br>
+					                            Пн-Пт с 9.00-18.00 <br>
+					                            Прием звонков: <br>
+					                            Пн-Вс 9:00 - 21:00
+                        					</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="wrapper">
+						<div class="copy">Все права защищены &copy; 2020</div>
+						<div class="privacy"><a href="#">Политика конфиденциальности</a></div>
+					</div>
+				</div>
+			</footer>
+			<nav id="top-menu">
+				<ul>
+					<li>
+						<a href="#">О компании</a>
+						<ul>
+							<li><a href="#">Лица компании</a></li>
+							<li><a href="#">Портфолио</a></li>
+							<li><a href="#">Статьи</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Полезная информация</a></li>
+					<li><a href="#">Сметы</a></li>
+					<li><a href="#">Интернет-магазин</a></li>
+				</ul>
+			</nav>
+			<nav id="catalog-menu">
+				<ul>
+					<li class="mainnav__item"><a class="mainnav__link" href="#">Доставка и оплата</a></li>
+					<li class="mainnav__item"><a class="mainnav__link" href="#">Ремонт квартир</a></li>
+					<li class="mainnav__item"><a class="mainnav__link" href="#">Ремонт помещений</a></li>
+					<li class="mainnav__item"><a class="mainnav__link" href="#">Дизайн интерьера</a></li>
+				</ul>
+			</nav>
+			<div id="zamer" class="tochchapopup middle-popup">
+				<div class="tochchapopup__form">
+					<div class="tochchapopup__title">Консультация специалиста</div>
+					<p class="subtitle">Заполните форму заявки. Менеджер перезвонит Вам в течении 15 минут</p>
+					<form action="#">
+						<input class="inputtext" type="text" placeholder="Ваше имя">
+						<input class="inputtext" type="tel" placeholder="Введите номер телефона">
+						<input type="submit" value="Получить консультацию" class="button">
+					</form>
+					<p class="rem">При нажатии на кнопку Вы соглашаетесь <br><a href="#">политикой конфиденциальности</a></p>
+				</div>
+			</div>
+			<div id="oz" class="tochchapopup middle-popup">
+				<div class="tochchapopup__form">
+					<div class="tochchapopup__title">Обратный звонок</div>
+					<p class="subtitle">Заполните форму заявки. Менеджер перезвонит Вам в течении 15 минут</p>
+					<form action="#">
+						<input class="inputtext" type="text" placeholder="Ваше имя">
+						<input class="inputtext" type="tel" placeholder="Введите номер телефона">
+						<input type="submit" value="Запросить звонок" class="button">
+					</form>
+					<p class="rem">При нажатии на кнопку Вы соглашаетесь <br><a href="#">политикой конфиденциальности</a></p>
+				</div>
+			</div>
+			<div id="popup_vacancy" class="tochchapopup middle-popup">
+				<div class="tochchapopup__form">
+					<div class="tochchapopup__title">Откликнуться <br>на вакансию</div>
+					<p class="subtitle">Заполните форму заявки. Менеджер перезвонит Вам в течении 15 минут</p>
+					<form action="#">
+						<input class="inputtext" type="text" placeholder="Ваше имя">
+						<input class="inputtext" type="tel" placeholder="Введите номер телефона">
+						<input type="submit" value="Получить консультацию" class="button">
+					</form>
+					<p class="rem">При нажатии на кнопку Вы соглашаетесь <br><a href="#">политикой конфиденциальности</a></p>
+				</div>
+			</div>
+			<div id="popup_zayavka_otpravlena" class="tochchapopup middle-popup">
+				<div class="tochchapopup__zayavka_otpravlena">
+					<div class="tochchapopup__title">Спасибо! <br>Заявка отправлена</div>
+					<div class="success_tick">
+						<img src="img/tick.png" alt="">
+					</div>
+					<p class="success_rem">Наш специалист перезвонит Вам <br>в ближайшее время</p>
+				</div>
+			</div>
+			<div id="popup_vopros_otpravlen" class="tochchapopup middle-popup">
+				<div class="tochchapopup__zayavka_otpravlena">
+					<div class="tochchapopup__title">Спасибо, Ваш отзыв <br>на модерации</div>
+					<p class="success_rem">Ответ на Ваш вопрос появится на сайте <br>после модерации, после этого Вам на почту придет уведомление о публикации ответа</p>
+					<div class="success_tick">
+						<img src="img/send.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="popup_otzyv_otpravlen" class="tochchapopup middle-popup">
+				<div class="tochchapopup__zayavka_otpravlena">
+					<div class="tochchapopup__title">Спасибо, Ваш отзыв <br>на модерации</div>
+					<p class="success_rem">После модерации отзыв будет успешно <br>размещен на сайте</p>
+					<div class="success_tick">
+						<img src="img/like.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="unioverlay"></div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/components/jquery.autocolumnlist.min.js"></script>
+	<script src="js/components/jquery.mmenu.all.min.js"></script>
+    <script src="js/components/jquery.fancybox.min.js"></script>
+	<script src="js/components/slick.min.js"></script>
+    <script src="js/components/jquery.formstyler.js"></script>
+    <script src="js/components/jquery.maskedinput.min.js"></script>
+    <script src="js/components/jquery.event.move.js"></script>
+    <script src="js/components/jquery.twentytwenty.js"></script>
+    <script src="js/components/jquery-ui.min.js"></script>
+    <script src="js/components/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

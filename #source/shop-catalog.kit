@@ -1,0 +1,628 @@
+<!-- @title : Каталог товаров -->
+<!-- @import "../_head.kit" -->
+
+<body class="loaded shop_body">
+    <div id="my-page">
+        <div class="main-wrapper">
+<!-- @import "_header_shop.kit" -->
+
+            <main id="my-content" class="content">
+                <div class="wrapper">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li><span><!-- @title --></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop_catalog">
+                    <div class="wrapper">
+                        <div class="shop_catalog__flex">
+                            <div class="shop_catalog__bar">
+                                <div class="shop_filter">
+                                    <div class="shop_filter__price">
+                                        <div class="shop_filter__price__title">Цена, руб</div>
+                                        <div class="inputbox_range">
+                                            <div class="polzunok__results">
+                                                <div class="result-polzunok">От <span id="result-polzunok1">130</span></div>
+                                                <div class="result-polzunok">До <span id="result-polzunok2" class="result-polzunok">16000</span></div>
+                                            </div>
+                                            <div id="polzunok"></div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__item open">
+                                        <div class="shop_filter__title">
+                                            <span>Бренд производителя</span>
+                                            <strong>
+                                                <i class="icon arrow-filter-15x7"></i>
+                                                <i class="icon arrow-filter-15x7-up"></i>
+                                            </strong>
+                                        </div>
+                                        <div class="shop_filter__content">
+                                            <ul class="shop_filter__list">
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-1" checked>
+                                                        <label for="ch1-1">Acospray</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-2">
+                                                        <label for="ch1-2">Belner</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-3">
+                                                        <label for="ch1-3">Decor Acoustic 13</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-4">
+                                                        <label for="ch1-4">Ecophon 48</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-5">
+                                                        <label for="ch1-5">FlexAkustik 5</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-6">
+                                                        <label for="ch1-6">Heradesign 4</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-7">
+                                                        <label for="ch1-7">Mappysil 2</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-8">
+                                                        <label for="ch1-8">SAB Acoustic 3</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-9">
+                                                        <label for="ch1-9">Акуфлекс 2</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-10">
+                                                        <label for="ch1-10">Вибростек 3</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-11">
+                                                        <label for="ch1-11">Вибростек 4</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-12">
+                                                        <label for="ch1-12">Вибростек 5</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch1" id="ch1-13">
+                                                        <label for="ch1-13">Вибростек 6</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="shop_filter__footer">
+                                                <div class="shop_filter__more"><span>Показать еще</span><span class="shop_filter__more_hidden">Скрыть</span></div>
+                                                <div class="shop_filter__clear">
+                                                    <i class="icon icon-clear-11x11"></i> <span>Сбросить</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__item">
+                                        <div class="shop_filter__title">
+                                            <span>Направления по объектам</span>
+                                            <strong>
+                                                <i class="icon arrow-filter-15x7"></i>
+                                                <i class="icon arrow-filter-15x7-up"></i>
+                                            </strong>
+                                        </div>
+                                        <div class="shop_filter__content">
+                                            <ul class="shop_filter__list">
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch2" id="ch2-1" checked>
+                                                        <label for="ch2-1">Для дома</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch2" id="ch2-2">
+                                                        <label for="ch2-2">Квартиры</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch2" id="ch2-3">
+                                                        <label for="ch2-3">Коммерческие объекты</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch2" id="ch2-4">
+                                                        <label for="ch2-4">Комнаты</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="shop_filter__footer">
+                                                <div class="shop_filter__clear">
+                                                    <i class="icon icon-clear-11x11"></i> <span>Сбросить</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__item">
+                                        <div class="shop_filter__title">
+                                            <span>Система/товар</span>
+                                            <strong>
+                                                <i class="icon arrow-filter-15x7"></i>
+                                                <i class="icon arrow-filter-15x7-up"></i>
+                                            </strong>
+                                        </div>
+                                        <div class="shop_filter__content">
+                                            <ul class="shop_filter__list">
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch3" id="ch3-1" checked>
+                                                        <label for="ch3-1">Система</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch3" id="ch3-2" >
+                                                        <label for="ch3-2">Товар</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__item">
+                                        <div class="shop_filter__title">
+                                            <span>Плоскости применения</span>
+                                            <strong>
+                                                <i class="icon arrow-filter-15x7"></i>
+                                                <i class="icon arrow-filter-15x7-up"></i>
+                                            </strong>
+                                        </div>
+                                        <div class="shop_filter__content">
+                                            <ul class="shop_filter__list">
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch4" id="ch4-1" checked>
+                                                        <label for="ch4-1">Для перегородок </label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch4" id="ch4-2">
+                                                        <label for="ch4-2">Для пола </label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch4" id="ch4-3">
+                                                        <label for="ch4-3">Для потолка</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch4" id="ch4-4">
+                                                        <label for="ch4-4">Инженерные системы</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="shop_filter__footer">
+                                                <div class="shop_filter__clear">
+                                                    <i class="icon icon-clear-11x11"></i> <span>Сбросить</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__item">
+                                        <div class="shop_filter__title">
+                                            <span>Акустические направления</span>
+                                            <strong>
+                                                <i class="icon arrow-filter-15x7"></i>
+                                                <i class="icon arrow-filter-15x7-up"></i>
+                                            </strong>
+                                        </div>
+                                        <div class="shop_filter__content">
+                                            <ul class="shop_filter__list">
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch5" id="ch5-1" checked>
+                                                        <label for="ch5-1">Вандалостойкие</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch5" id="ch5-2">
+                                                        <label for="ch5-2">Гидроизоляция</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch5" id="ch5-3">
+                                                        <label for="ch5-3">Декоративные и акустические</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch5" id="ch5-4">
+                                                        <label for="ch5-4">Огнезащита КМ0</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="shop_filter__footer">
+                                                <div class="shop_filter__clear">
+                                                    <i class="icon icon-clear-11x11"></i> <span>Сбросить</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__item">
+                                        <div class="shop_filter__title">
+                                            <span>Общие характеристики</span>
+                                            <strong>
+                                                <i class="icon arrow-filter-15x7"></i>
+                                                <i class="icon arrow-filter-15x7-up"></i>
+                                            </strong>
+                                        </div>
+                                        <div class="shop_filter__content">
+                                            <ul class="shop_filter__list">
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch6" id="ch6-1" checked>
+                                                        <label for="ch6-1">Материал для кровли </label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch6" id="ch6-2">
+                                                        <label for="ch6-2">Тонкие материалы</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch6" id="ch6-3">
+                                                        <label for="ch6-3">Экологически чистые</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="shop_filter__footer">
+                                                <div class="shop_filter__clear">
+                                                    <i class="icon icon-clear-11x11"></i> <span>Сбросить</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__item">
+                                        <div class="shop_filter__title">
+                                            <span>Вспомогательные материалы</span>
+                                            <strong>
+                                                <i class="icon arrow-filter-15x7"></i>
+                                                <i class="icon arrow-filter-15x7-up"></i>
+                                            </strong>
+                                        </div>
+                                        <div class="shop_filter__content">
+                                            <ul class="shop_filter__list">
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch7" id="ch7-1">
+                                                        <label for="ch7-1">Демпферные материалы</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch7" id="ch7-2">
+                                                        <label for="ch7-2">Для двери, розеток, окон</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch7" id="ch7-3">
+                                                        <label for="ch7-3">Клей и герметик </label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="shop_filter__checkbox">
+                                                        <input type="checkbox" name="ch7" id="ch7-4">
+                                                        <label for="ch7-4">Крепеж</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="shop_filter__button"><button class="button" type="submit">Применить все фильтры</button></div>
+                                    <div class="shop_filter__close"><i class="icon iconclose"></i></div>
+                                </div>
+                            </div>
+                            <div class="shop_catalog__body">
+                                <div class="prodlist">
+                                    <header class="prodlist__header">
+                                        <div class="prodlist__headertop">
+                                            <div class="filter-title">
+                                                <div class="filter_opener"><i class="icon icon-filter"></i> <span>фильтр</span></div>
+                                                <h1 class="prodlist__title">Звукоизоляционные материалы для дома</h1>
+                                            </div>
+                                            <div class="prodlist__qty">234 товара</div>
+                                        </div>
+                                        <div class="prodlist__headerbottom">
+                                            <div class="sort__title">Сортировать по:</div>
+                                            <div class="sort__items">
+                                                <div class="sort__item nonactive">
+                                                    <span>Популярности</span>
+                                                    <i class="icon sort-down-blue"></i>
+                                                    <i class="icon sort-up-blue"></i>
+                                                </div>
+                                                <div class="sort__item active active_up">
+                                                    <span>Цене</span>
+                                                    <i class="icon sort-down-blue"></i>
+                                                    <i class="icon sort-up-blue"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="listwithmore">
+                                        <div class="prodlisting">
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-1.webp" type="image/webp">
+                                                            <img src="img/shop/prod-1.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">ТермоЗвукоИзоляция Light</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">5 200 руб</div>
+                                                            <div class="prodlist__price_old">5 200 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                    <ul class="labellist">
+                                                        <li class="labellist__item labellist__item_new">NEW</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-2.webp" type="image/webp">
+                                                            <img src="img/shop/prod-2.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-3.webp" type="image/webp">
+                                                            <img src="img/shop/prod-3.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-4.webp" type="image/webp">
+                                                            <img src="img/shop/prod-4.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">ТермоЗвукоИзоляция Light</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">5 200 руб</div>
+                                                            <div class="prodlist__price_old">5 200 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-2.webp" type="image/webp">
+                                                            <img src="img/shop/prod-2.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-3.webp" type="image/webp">
+                                                            <img src="img/shop/prod-3.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                    <ul class="labellist">
+                                                        <li class="labellist__item labellist__item_new">NEW</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-4.webp" type="image/webp">
+                                                            <img src="img/shop/prod-4.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">ТермоЗвукоИзоляция Light</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">5 200 руб</div>
+                                                            <div class="prodlist__price_old">5 200 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-2.webp" type="image/webp">
+                                                            <img src="img/shop/prod-2.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-3.webp" type="image/webp">
+                                                            <img src="img/shop/prod-3.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                    <ul class="labellist">
+                                                        <li class="labellist__item labellist__item_new">NEW</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item hidden">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-2.webp" type="image/webp">
+                                                            <img src="img/shop/prod-2.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodlist__item hidden">
+                                                <div class="prodlist__wrap">
+                                                    <div class="prodlist__img">
+                                                        <picture>
+                                                            <source srcset="img/shop/prod-3.webp" type="image/webp">
+                                                            <img src="img/shop/prod-3.jpg" alt="">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="prodlist__body">
+                                                        <h3 class="prodlist_title">Сонокреп ЕП Sylomer 20</h3>
+                                                        <div class="prodlist__price">
+                                                            <div class="prodlist__price_real">365 руб</div>
+                                                            <div class="prodlist__price_old">420 руб</div>
+                                                        </div>
+                                                        <div class="prodlist__button"><button class="button" type="submit">Добавить в корзину</button></div>
+                                                    </div>
+                                                    <ul class="labellist">
+                                                        <li class="labellist__item labellist__item_new">NEW</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box__seemoreprods">
+                                            <span>Показать еще <i class="icon angle-down--11x5"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="section seo">
+                    <div class="wrapper">
+                        <h2 class="seo__title">Remside интернет-магазин звукоизоляции</h2>
+                        <div class="seotext">
+                            <div class="col">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            </div>
+                            <div class="col">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
+                                <div class="readmore"><span>Читать еще</span> <i class="icon icon-angle-down"></i></div>
+                            </div>
+                            <div class="colwide">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+<!-- @import "_footer_shop.kit" -->
+
+        </div>
+    </div>
+<!-- @import "../_foot.kit" -->
